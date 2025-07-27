@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yogesh Dhembare - Data Analyst Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+    <div class="portfolio-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="header-content">
+                    <h1 class="header-title">Yogesh Dhembare</h1>
+                    <nav class="nav">
+                        <a href="#about" class="nav-link">About</a>
+                        <a href="#skills" class="nav-link">Skills</a>
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <a href="#experience" class="nav-link">Experience</a>
+                        <button class="btn btn-outline" onclick="downloadResume()">
+                            <i data-lucide="download"></i>
+                            Resume
+                        </button>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-background">
+                <div class="hero-pattern"></div>
+            </div>
+            <div class="container">
+                <div class="hero-content animate-fade-in-up">
+                    <!-- Profile Image -->
+                    <div class="profile-image-container">
+                        <div class="profile-glow"></div>
+                        <img src="https://customer-assets.emergentagent.com/job_b2cc62f0-e028-439d-8c73-777c94a1f562/artifacts/f4skezdc_WhatsApp%20Image%202025-07-02%20at%2002.01.46.jpeg" 
+                             alt="Yogesh Dhembare" class="profile-image">
+                    </div>
+                    
+                    <!-- Title -->
+                    <h1 class="hero-title">Yogesh Dhembare</h1>
+                    
+                    <!-- Skills Highlight */}
+                    <div class="skills-highlight">
+                        <span class="skill-tag skill-data-analyst">Data Analyst</span>
+                        <span class="divider">|</span>
+                        <span class="skill-tag skill-sql">SQL Expert</span>
+                        <span class="divider">|</span>
+                        <span class="skill-tag skill-powerbi">Power BI Specialist</span>
+                        <br class="mobile-break">
+                        <span class="divider">|</span>
+                        <span class="skill-tag skill-gcp">GCP Developer</span>
+                    </div>
+                    
+                    <!-- Value Proposition -->
+                    <p class="hero-description">
+                        <span class="highlight-blue">3.5+ years</span> transforming healthcare data into actionable insights with 
+                        <span class="highlight-green">50% automation improvement</span> and 
+                        <span class="highlight-purple">40% faster query performance</span>
+                    </p>
+                    
+                    <!-- Contact Info -->
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i data-lucide="map-pin"></i>
+                            <span>Pune, India</span>
+                        </div>
+                        <div class="contact-item">
+                            <i data-lucide="mail"></i>
+                            <a href="mailto:yogeshdhembare@gmail.com">yogeshdhembare@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i data-lucide="phone"></i>
+                            <a href="tel:+91-9876543210">+91-9876543210</a>
+                        </div>
+                    </div>
+                    
+                    <!-- CTA Buttons -->
+                    <div class="cta-buttons">
+                        <button class="btn btn-primary" onclick="openLinkedIn()">
+                            <i data-lucide="linkedin"></i>
+                            Connect on LinkedIn
+                        </button>
+                        <button class="btn btn-secondary" onclick="downloadResume()">
+                            <i data-lucide="download"></i>
+                            Download Resume
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <i data-lucide="user" class="section-icon"></i>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="about-content">
+                    <p>Experienced Data Analyst with 3.5+ years of expertise in SQL, ETL pipeline development, and Power BI dashboard creation. Specialized in GCP tools including BigQuery, DataProc, and Cloud Storage. Proven track record in healthcare domain analytics, process automation, and delivering data-driven insights that drive business decisions. Passionate about transforming complex data into actionable intelligence through advanced analytics and cloud technologies.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="skills-background">
+                <div class="bg-pattern-1"></div>
+                <div class="bg-pattern-2"></div>
+            </div>
+            <div class="container">
+                <div class="section-header">
+                    <i data-lucide="code" class="section-icon-large"></i>
+                    <h2 class="section-title-large">Core Expertise</h2>
+                    <div class="section-divider-gradient"></div>
+                    <p class="section-description">Specialized in transforming complex data into actionable business insights through advanced analytics and cloud technologies</p>
+                </div>
+                
+                <!-- Primary Skills -->
+                <div class="primary-skills">
+                    <h3 class="primary-title">🚀 Primary Expertise</h3>
+                    <div class="skills-grid">
+                        <!-- SQL Expert -->
+                        <div class="skill-card sql-card">
+                            <div class="skill-glow sql-glow"></div>
+                            <div class="skill-content">
+                                <div class="skill-header sql-header">
+                                    <div class="skill-icon sql-icon">
+                                        <i data-lucide="database"></i>
+                                    </div>
+                                    <h4>SQL Expert</h4>
+                                    <div class="skill-metrics">3.5+ Years | 40% Performance Boost</div>
+                                </div>
+                                <div class="skill-tags">
+                                    <span class="tag tag-blue">Complex Queries</span>
+                                    <span class="tag tag-indigo">Performance Optimization</span>
+                                    <span class="tag tag-purple">ETL Pipelines</span>
+                                    <span class="tag tag-blue">Data Warehousing</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Power BI Specialist -->
+                        <div class="skill-card powerbi-card">
+                            <div class="skill-glow powerbi-glow"></div>
+                            <div class="skill-content">
+                                <div class="skill-header powerbi-header">
+                                    <div class="skill-icon powerbi-icon">
+                                        <i data-lucide="code"></i>
+                                    </div>
+                                    <h4>Power BI Specialist</h4>
+                                    <div class="skill-metrics">Advanced DAX | 50+ Dashboards</div>
+                                </div>
+                                <div class="skill-tags">
+                                    <span class="tag tag-green">DAX Functions</span>
+                                    <span class="tag tag-teal">Executive Dashboards</span>
+                                    <span class="tag tag-emerald">DirectQuery</span>
+                                    <span class="tag tag-green">Data Modeling</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- GCP Developer -->
+                        <div class="skill-card gcp-card">
+                            <div class="skill-glow gcp-glow"></div>
+                            <div class="skill-content">
+                                <div class="skill-header gcp-header">
+                                    <div class="skill-icon gcp-icon">
+                                        <i data-lucide="cloud"></i>
+                                    </div>
+                                    <h4>GCP Developer</h4>
+                                    <div class="skill-metrics">Cloud Analytics | 500GB+ Data</div>
+                                </div>
+                                <div class="skill-tags">
+                                    <span class="tag tag-orange">BigQuery</span>
+                                    <span class="tag tag-red">DataProc</span>
+                                    <span class="tag tag-yellow">Cloud Storage</span>
+                                    <span class="tag tag-orange">Data Pipelines</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Supporting Skills -->
+                <div class="supporting-skills">
+                    <div class="support-skill-group">
+                        <h3 class="support-title">
+                            <i data-lucide="code"></i>
+                            Programming & Scripting
+                        </h3>
+                        <div class="support-skills-list">
+                            <div class="support-skill-item">
+                                <span>Python</span>
+                                <span class="support-tag tag-blue">Data Analysis</span>
+                            </div>
+                            <div class="support-skill-item">
+                                <span>JavaScript</span>
+                                <span class="support-tag tag-yellow">Web Development</span>
+                            </div>
+                            <div class="support-skill-item">
+                                <span>HTML/CSS</span>
+                                <span class="support-tag tag-green">Frontend</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="support-skill-group">
+                        <h3 class="support-title">
+                            <i data-lucide="database"></i>
+                            Tools & Platforms
+                        </h3>
+                        <div class="support-skills-list">
+                            <div class="support-skill-item">
+                                <span>Excel</span>
+                                <span class="support-tag tag-green">Advanced</span>
+                            </div>
+                            <div class="support-skill-item">
+                                <span>Git</span>
+                                <span class="support-tag tag-gray">Version Control</span>
+                            </div>
+                            <div class="support-skill-item">
+                                <span>Jira & Confluence</span>
+                                <span class="support-tag tag-blue">Agile</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="section-header">
+                    <i data-lucide="briefcase" class="section-icon-large"></i>
+                    <h2 class="section-title-large">Featured Projects</h2>
+                    <div class="section-divider-gradient"></div>
+                    <p class="section-description">Real-world applications of my expertise in healthcare data analytics and cloud technologies</p>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-glow"></div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <div class="project-title-row">
+                                    <h3>Healthcare Data Quality Dashboard</h3>
+                                    <i data-lucide="external-link" class="external-link"></i>
+                                    <span class="project-badge badge-healthcare">Healthcare</span>
+                                </div>
+                                <div class="project-metrics">
+                                    <div class="metric">
+                                        <div class="metric-value green">40%</div>
+                                        <div class="metric-label">Quality Boost</div>
+                                    </div>
+                                    <div class="metric">
+                                        <div class="metric-value blue">60%</div>
+                                        <div class="metric-label">Time Saved</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="project-description">Comprehensive Power BI dashboard integrating large EHR datasets to monitor and improve data quality across healthcare operations.</p>
+                            <div class="project-highlights">
+                                <div class="highlight-item">
+                                    <div class="highlight-dot"></div>
+                                    <span>Integrated multiple EHR data sources using ETL pipelines</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <div class="highlight-dot"></div>
+                                    <span>Implemented DirectQuery for real-time data analysis</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <div class="highlight-dot"></div>
+                                    <span>Created advanced DAX calculations for KPI tracking</span>
+                                </div>
+                            </div>
+                            <div class="project-technologies">
+                                <span class="tech-tag">Power BI</span>
+                                <span class="tech-tag">SQL</span>
+                                <span class="tech-tag">DAX</span>
+                                <span class="tech-tag">DirectQuery</span>
+                                <span class="tech-tag-more">+2 more</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-glow"></div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <div class="project-title-row">
+                                    <h3>GCP Data Pipeline Automation</h3>
+                                    <i data-lucide="external-link" class="external-link"></i>
+                                    <span class="project-badge badge-cloud">Cloud</span>
+                                </div>
+                                <div class="project-metrics">
+                                    <div class="metric">
+                                        <div class="metric-value orange">500GB+</div>
+                                        <div class="metric-label">Data Processed</div>
+                                    </div>
+                                    <div class="metric">
+                                        <div class="metric-value green">99.9%</div>
+                                        <div class="metric-label">Uptime</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="project-description">Automated ETL pipeline using Google Cloud Platform tools for efficient data processing and storage.</p>
+                            <div class="project-highlights">
+                                <div class="highlight-item">
+                                    <div class="highlight-dot"></div>
+                                    <span>Built scalable ETL pipelines using DataProc</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <div class="highlight-dot"></div>
+                                    <span>Optimized BigQuery queries for performance</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <div class="highlight-dot"></div>
+                                    <span>Implemented Cloud Storage for data archival</span>
+                                </div>
+                            </div>
+                            <div class="project-technologies">
+                                <span class="tech-tag">GCP</span>
+                                <span class="tech-tag">BigQuery</span>
+                                <span class="tech-tag">DataProc</span>
+                                <span class="tech-tag">Cloud Storage</span>
+                                <span class="tech-tag-more">+2 more</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-glow"></div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <div class="project-title-row">
+                                    <h3>SQL Performance Optimization</h3>
+                                    <i data-lucide="external-link" class="external-link"></i>
+                                    <span class="project-badge badge-performance">Performance</span>
+                                </div>
+                                <div class="project-metrics">
+                                    <div class="metric">
+                                        <div class="metric-value blue">70%</div>
+                                        <div class="metric-label">Speed Boost</div>
+                                    </div>
+                                    <div class="metric">
+                                        <div class="metric-value purple">Multiple</div>
+                                        <div class="metric-label">Apps</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="project-description">Comprehensive SQL query optimization project that improved database performance across multiple healthcare applications.</p>
+                            <div class="project-highlights">
+                                <div class="highlight-item">
+                                    <div class="highlight-dot"></div>
+                                    <span>Optimized complex SQL queries reducing execution time by 70%</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <div class="highlight-dot"></div>
+                                    <span>Implemented proper indexing strategies</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <div class="highlight-dot"></div>
+                                    <span>Created stored procedures for recurring operations</span>
+                                </div>
+                            </div>
+                            <div class="project-technologies">
+                                <span class="tech-tag">SQL</span>
+                                <span class="tech-tag">Database Optimization</span>
+                                <span class="tech-tag">Performance Tuning</span>
+                                <span class="tech-tag">Stored Procedures</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience">
+            <div class="container">
+                <div class="section-header">
+                    <i data-lucide="briefcase" class="section-icon"></i>
+                    <h2 class="section-title">Professional Experience</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div class="experience-info">
+                            <h3>Analyst - Data Operations</h3>
+                            <p class="company">FIGmd India Pvt. Ltd</p>
+                        </div>
+                        <span class="duration-badge">Aug 2021 – June 2025</span>
+                    </div>
+                    <div class="experience-responsibilities">
+                        <div class="responsibility-item">
+                            <div class="responsibility-dot"></div>
+                            <span>Developed and maintained automated ETL pipelines for healthcare data processing, reducing manual effort by 50%</span>
+                        </div>
+                        <div class="responsibility-item">
+                            <div class="responsibility-dot"></div>
+                            <span>Optimized SQL queries and database performance, achieving 40% improvement in query execution times</span>
+                        </div>
+                        <div class="responsibility-item">
+                            <div class="responsibility-dot"></div>
+                            <span>Implemented cloud storage solutions using GCP, managing 500GB+ of healthcare data with 99.9% uptime</span>
+                        </div>
+                        <div class="responsibility-item">
+                            <div class="responsibility-dot"></div>
+                            <span>Collaborated in agile development teams, delivering high-priority data analytics projects 2 weeks ahead of schedule</span>
+                        </div>
+                        <div class="responsibility-item">
+                            <div class="responsibility-dot"></div>
+                            <span>Created comprehensive Power BI dashboards for executive reporting, serving 50+ stakeholders across the organization</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Awards -->
+        <section class="education-awards">
+            <div class="container">
+                <div class="education-awards-grid">
+                    <!-- Education -->
+                    <div class="education-section">
+                        <div class="section-header">
+                            <i data-lucide="graduation-cap" class="section-icon"></i>
+                            <h2 class="section-title">Education</h2>
+                            <div class="section-divider"></div>
+                        </div>
+                        <div class="education-card">
+                            <h3>Bachelor of Computer Applications (BCA)</h3>
+                            <p class="institution">VPASC College, Baramati</p>
+                            <div class="education-details">
+                                <span class="year">Feb 2020</span>
+                                <span class="percentage-badge">70.27%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Awards -->
+                    <div class="awards-section">
+                        <div class="section-header">
+                            <i data-lucide="award" class="section-icon"></i>
+                            <h2 class="section-title">Awards</h2>
+                            <div class="section-divider"></div>
+                        </div>
+                        <div class="award-card">
+                            <div class="award-content">
+                                <div class="award-icon">
+                                    <i data-lucide="award"></i>
+                                </div>
+                                <div class="award-info">
+                                    <h3>Multitasker Award</h3>
+                                    <p class="award-organization">MRO Corp</p>
+                                    <p class="award-description">Recognized for exceptional cross-functional delivery capabilities and consistently completing high-priority tasks ahead of schedule while maintaining quality standards.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <h3>Let's Connect</h3>
+                    <p>Ready to collaborate on your next data project? Let's discuss how I can help transform your data into actionable insights.</p>
+                    <div class="footer-buttons">
+                        <button class="btn btn-primary" onclick="openLinkedIn()">
+                            <i data-lucide="linkedin"></i>
+                            LinkedIn
+                        </button>
+                        <button class="btn btn-footer-outline" onclick="openEmail()">
+                            <i data-lucide="mail"></i>
+                            Email Me
+                        </button>
+                        <button class="btn btn-footer-outline" onclick="downloadResume()">
+                            <i data-lucide="download"></i>
+                            Resume
+                        </button>
+                    </div>
+                    <div class="footer-bottom">
+                        <p>© 2024 Yogesh Dhembare | Built with AI</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
