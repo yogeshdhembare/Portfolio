@@ -122,7 +122,7 @@ function openLinkedIn() {
 
 // Function to download resume
 function downloadResume() {
-    const resumeUrl = 'Resume.pdf'; // Relative path to the PDF file
+    const resumeUrl = 'Resume_Yogesh_Dhembare_SQL_DataAnalyst.pdf'; // Relative path to the PDF file
 
     window.open(resumeUrl, '_blank');
 
