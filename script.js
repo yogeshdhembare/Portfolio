@@ -8,7 +8,7 @@ const portfolioData = {
         phone: "+91-9876543210",
         profileImage: "https://customer-assets.emergentagent.com/job_b2cc62f0-e028-439d-8c73-777c94a1f562/artifacts/f4skezdc_WhatsApp%20Image%202025-07-02%20at%2002.01.46.jpeg",
         linkedinUrl: "https://linkedin.com/in/yogeshdhembare",
-        resumeUrl: "https://github.com/yogeshdhembare/Portfolio/blob/main/Resume_Yogesh_Dhembare_SQL_DataAnalyst_ETL.pdf"
+        resumeUrl: "Resume_Yogesh_Dhembare_SQL_DataAnalyst_ETL.PDF"
     }
 };
 
